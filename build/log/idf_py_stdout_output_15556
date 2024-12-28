@@ -1,0 +1,1657 @@
+[1/1060] Generating project_elf_src_esp32.c
+[2/1060] Generating memory.ld linker script...
+[3/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj
+[4/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj
+[5/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[6/1060] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[7/1060] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
+[8/1060] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
+[9/1060] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[10/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/idf/bootloader_sha.c.obj
+[11/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
+[12/1060] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
+[13/1060] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj
+[14/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[15/1060] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj
+[16/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj
+[17/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj
+[18/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.obj
+[19/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
+[20/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
+[21/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt_impl_timergroup.c.obj
+[22/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[23/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj
+[24/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj
+[25/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
+[26/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
+[27/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj
+[28/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+[29/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+[30/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj
+[31/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.obj
+[32/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj
+[33/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[34/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+[35/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+[36/1060] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+[37/1060] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+[38/1060] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+[39/1060] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj
+[40/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[41/1060] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,16K,
+phy_init,data,phy,0xd000,4K,
+factory,app,factory,0x10000,3M,
+*******************************************************************************
+[42/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj
+[43/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj
+[44/1060] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+[45/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj
+[46/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
+[47/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj
+[48/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
+[49/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj
+[50/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/ubsan.c.obj
+[51/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/gpio_hal_workaround.c.obj
+[52/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/clk.c.obj
+[53/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/reset_reason.c.obj
+[54/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/touch_sensor_hal.c.obj
+[55/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj
+[56/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/panic_handler.c.obj
+[57/1060] Creating directories for 'bootloader'
+[58/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj
+[59/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj
+[60/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
+[61/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c.obj
+[62/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj
+[63/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/cache_err_int.c.obj
+[64/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/system_internal.c.obj
+[65/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj
+[66/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers.c.obj
+[67/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj
+[68/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj
+[69/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj
+[70/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj
+[71/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.obj
+[72/1060] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj
+[73/1060] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj
+[74/1060] No download step for 'bootloader'
+[75/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[76/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[77/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[78/1060] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[79/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[80/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+[81/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[82/1060] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_regi2c.c.obj
+[83/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[84/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[85/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
+[86/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[87/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
+[88/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
+[89/1060] No update step for 'bootloader'
+[90/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
+[91/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+[92/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
+[93/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
+[94/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
+[95/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal_iram.c.obj
+[96/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
+[97/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
+[98/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+[99/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
+[100/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
+[101/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
+[102/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
+[103/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
+[104/1060] No patch step for 'bootloader'
+[105/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
+[106/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
+[107/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
+[108/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
+[109/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
+[110/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
+[111/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
+[112/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
+[113/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj
+[114/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj
+[115/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj
+[116/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/brownout_hal.c.obj
+[117/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
+[118/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
+[119/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/dac_hal.c.obj
+[120/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
+[121/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[122/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/emac_hal.c.obj
+[123/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[124/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[125/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[126/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
+[127/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
+[128/1060] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdio_slave_hal.c.obj
+[129/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[130/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[131/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
+[132/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
+[133/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
+[134/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+[135/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
+[136/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
+[137/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
+[138/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj
+[139/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
+[140/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
+[141/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
+[142/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
+[143/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj
+[144/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj
+[145/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
+[146/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj
+[147/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj
+[148/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj
+[149/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj
+[150/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj
+[151/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj
+[152/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj
+[153/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj
+[154/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj
+[155/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj
+[156/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj
+[157/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj
+[158/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj
+[159/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj
+[160/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/mps_reader.c.obj
+[161/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj
+[162/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj
+[163/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj
+[164/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/mps_trace.c.obj
+[165/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj
+[166/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj
+[167/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj
+[168/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj
+[169/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj
+[170/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj
+[171/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj
+[172/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj
+[173/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj
+[174/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj
+[175/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj
+[176/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj
+[177/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.obj
+[178/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj
+[179/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj
+[180/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj
+[181/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj
+[182/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj
+[183/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj
+[184/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj
+[185/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj
+[186/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj
+[187/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj
+[188/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj
+[189/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ssl_debug_helpers_generated.c.obj
+[190/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj
+[191/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj
+[192/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj
+[193/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj
+[194/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/esp_mem.c.obj
+[195/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/esp_timing.c.obj
+[196/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/esp_hardware.c.obj
+[197/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/sha/esp_sha.c.obj
+[198/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+[199/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/aes/esp_aes_xts.c.obj
+[200/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/aes/esp_aes_common.c.obj
+[201/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/aes/block/esp_aes.c.obj
+[202/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
+[203/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/esp32/bignum.c.obj
+[204/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
+[205/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
+[206/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+[207/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj
+[208/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/esp_bignum.c.obj
+[209/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
+[210/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[211/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
+[212/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/md/esp_md.c.obj
+[213/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[214/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj
+[215/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj
+[216/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[217/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj
+[218/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj
+[219/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[220/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj
+[221/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj
+[222/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj
+[223/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj
+[224/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj
+[225/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj
+[226/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj
+[227/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
+[228/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj
+[229/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj
+[230/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj
+[231/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/mbedtls_debug.c.obj
+[232/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj
+[233/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
+[234/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj
+[235/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[236/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[237/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[238/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[239/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[240/1060] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/mbedtls/port/net_sockets.c.obj
+[241/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[242/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[243/1060] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vector_defaults.S.obj
+[244/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[245/1060] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[246/1060] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj
+[247/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.obj
+[248/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_common.c.obj
+[249/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.obj
+[250/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj
+[251/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/memory_layout_utils.c.obj
+[252/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj
+[253/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32/memory_layout.c.obj
+[254/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/multi_heap.c.obj
+[255/1060] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf/tlsf.c.obj
+[256/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[257/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+[258/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+[259/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[260/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+[261/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+[262/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj
+[263/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+[264/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
+[265/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+[266/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+[267/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
+[268/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+[269/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+[270/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+[271/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+[272/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+[273/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
+[274/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+[275/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+[276/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+[277/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
+[278/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[279/1060] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[280/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[281/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
+[282/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
+[283/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
+[284/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[285/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
+[286/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
+[287/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mac_bb.c.obj
+[288/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
+[289/1060] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+[290/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[291/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[292/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj
+[293/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_wdt.c.obj
+[294/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
+[295/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[296/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+[297/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_pm.c.obj
+[298/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj
+[299/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj
+[300/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj
+[301/1060] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/portasm.S.obj
+[302/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj
+[303/1060] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cache_sram_mmu.c.obj
+[304/1060] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj
+[305/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj
+[306/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.obj
+[307/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
+[308/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+[309/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
+[310/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
+[311/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj
+[312/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+[313/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj
+[314/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[315/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.obj
+[316/1060] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.obj
+[317/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.obj
+[318/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.obj
+[319/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.obj
+[320/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.obj
+[321/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj
+[322/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj
+[323/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj
+[324/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.obj
+[325/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.obj
+[326/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.obj
+[327/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj
+[328/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj
+[329/1060] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj
+[330/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj
+[331/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.obj
+[332/1060] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.obj
+[333/1060] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.obj
+[334/1060] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
+[335/1060] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/ets_timer_legacy.c.obj
+[336/1060] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/system_time.c.obj
+[337/1060] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_lac.c.obj
+[338/1060] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj
+[339/1060] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
+[340/1060] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
+[341/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj
+[342/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj
+[343/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj
+[344/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.obj
+[345/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj
+[346/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj
+[347/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj
+[348/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj
+[349/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj
+[350/1060] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[351/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/utils.c.obj
+[352/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppol2tp.c.obj
+[353/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj
+[354/1060] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.obj
+[355/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppos.c.obj
+[356/1060] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+[357/1060] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj
+[358/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/upap.c.obj
+[359/1060] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
+[360/1060] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.obj
+[361/1060] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
+[362/1060] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_console.c.obj
+[363/1060] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_uart.c.obj
+[364/1060] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
+[365/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/err.c.obj
+[366/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppoe.c.obj
+[367/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netbuf.c.obj
+[368/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp/sntp.c.obj
+[369/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/if_api.c.obj
+[370/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netdb.c.obj
+[371/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_lib.c.obj
+[372/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/def.c.obj
+[373/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_msg.c.obj
+[374/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netifapi.c.obj
+[375/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns/netbiosns.c.obj
+[376/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp/sntp.c.obj
+[377/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/sockets.c.obj
+[378/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/dns.c.obj
+[379/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ip.c.obj
+[380/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/tcpip.c.obj
+[381/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/mem.c.obj
+[382/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/pbuf.c.obj
+[383/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/inet_chksum.c.obj
+[384/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/init.c.obj
+[385/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/netif.c.obj
+[386/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/raw.c.obj
+[387/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/sys.c.obj
+[388/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp.c.obj
+[389/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/stats.c.obj
+[390/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_in.c.obj
+[391/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/memp.c.obj
+[392/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/autoip.c.obj
+[393/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_out.c.obj
+[394/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/timeouts.c.obj
+[395/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/dhcp.c.obj
+[396/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/etharp.c.obj
+[397/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_napt.c.obj
+[398/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/icmp.c.obj
+[399/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/udp.c.obj
+[400/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/igmp.c.obj
+[401/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4.c.obj
+[402/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_addr.c.obj
+[403/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/dhcp6.c.obj
+[404/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/inet6.c.obj
+[405/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/icmp6.c.obj
+[406/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6.c.obj
+[407/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_frag.c.obj
+[408/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/mld6.c.obj
+[409/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ethip6.c.obj
+[410/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_frag.c.obj
+[411/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ethernet.c.obj
+[412/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/nd6.c.obj
+[413/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif_fdb.c.obj
+[414/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif.c.obj
+[415/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_addr.c.obj
+[416/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/auth.c.obj
+[417/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/slipif.c.obj
+[418/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-md5.c.obj
+[419/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap_ms.c.obj
+[420/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-new.c.obj
+[421/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ccp.c.obj
+[422/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/demand.c.obj
+[423/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipcp.c.obj
+[424/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/magic.c.obj
+[425/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/fsm.c.obj
+[426/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eap.c.obj
+[427/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipv6cp.c.obj
+[428/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/multilink.c.obj
+[429/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/mppe.c.obj
+[430/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/lcp.c.obj
+[431/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppapi.c.obj
+[432/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ecp.c.obj
+[433/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ppp.c.obj
+[434/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eui64.c.obj
+[435/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppcrypt.c.obj
+[436/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj
+[437/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
+[438/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
+[439/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj
+[440/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/debug/lwip_debug.c.obj
+[441/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/vj.c.obj
+[442/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/hooks/tcp_isn_default.c.obj
+[443/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/hooks/lwip_default_hooks.c.obj
+[444/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/freertos/sys_arch.c.obj
+[445/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.obj
+[446/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/sockets_ext.c.obj
+[447/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+[448/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+[449/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping_sock.c.obj
+[450/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.obj
+[451/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver/dhcpserver.c.obj
+[452/1060] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32/vfs_lwip.c.obj
+[453/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+[454/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+[455/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+[456/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
+[457/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
+[458/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+[459/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.obj
+[460/1060] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
+[461/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[462/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[463/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[464/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
+[465/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+[466/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
+[467/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[468/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj
+[469/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj
+[470/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj
+[471/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
+[472/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
+[473/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj
+[474/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj
+[475/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj
+[476/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
+[477/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
+[478/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj
+[479/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
+[480/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
+[481/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
+[482/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
+[483/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
+[484/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj
+[485/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj
+[486/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj
+[487/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
+[488/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
+[489/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj
+[490/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj
+[491/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj
+[492/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj
+[493/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj
+[494/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
+[495/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj
+[496/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj
+[497/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj
+[498/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj
+[499/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj
+[500/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj
+[501/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj
+[502/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
+[503/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
+[504/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
+[505/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj
+[506/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj
+[507/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
+[508/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
+[509/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
+[510/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj
+[511/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
+[512/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
+[513/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
+[514/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj
+[515/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj
+[516/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj
+[517/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.obj
+[518/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj
+[519/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj
+[520/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c.obj
+[521/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj
+[522/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj
+[523/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj
+[524/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj
+[525/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
+[526/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj
+[527/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj
+[528/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj
+[529/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
+[530/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj
+[531/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
+[532/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-omac1.c.obj
+[533/1060] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj
+[534/1060] Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj
+[535/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
+[536/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
+[537/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.obj
+[538/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
+[539/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[540/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default_ap.c.obj
+[541/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+[542/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
+[543/1060] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
+[544/1060] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto/esp_tls_crypto.c.obj
+[545/1060] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj
+[546/1060] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls.c.obj
+[547/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+[548/1060] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj
+[549/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+[550/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[551/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[552/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[553/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[554/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj
+[555/1060] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj
+[556/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[557/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
+[558/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj
+[559/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.obj
+[560/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.obj
+[561/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.obj
+[562/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[563/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+[564/1060] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.obj
+[565/1060] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj
+[566/1060] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/xt_debugexception.S.obj
+[567/1060] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/esp_common/gdbstub_common.c.obj
+[568/1060] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/gdbstub-entry.S.obj
+[569/1060] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/xtensa/gdbstub_xtensa.c.obj
+[570/1060] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj
+[571/1060] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
+[572/1060] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+[573/1060] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+[574/1060] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+[575/1060] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+[576/1060] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[577/1060] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[578/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj
+[579/1060] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+[580/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
+[581/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj
+[582/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj
+[583/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj
+[584/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj
+[585/1060] Building C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
+[586/1060] Building C object esp-idf/ulp/CMakeFiles/__idf_ulp.dir/ulp_common/ulp_common.c.obj
+[587/1060] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj
+[588/1060] Linking C static library esp-idf\ulp\libulp.a
+[589/1060] Linking C static library esp-idf\esp_https_ota\libesp_https_ota.a
+[590/1060] Linking C static library esp-idf\esp_http_server\libesp_http_server.a
+[591/1060] Linking C static library esp-idf\esp_http_client\libesp_http_client.a
+[592/1060] Linking C static library esp-idf\tcp_transport\libtcp_transport.a
+[593/1060] Linking C static library esp-idf\esp_gdbstub\libesp_gdbstub.a
+[594/1060] Linking C static library esp-idf\esp_eth\libesp_eth.a
+[595/1060] Linking C static library esp-idf\esp_adc\libesp_adc.a
+[596/1060] Linking C static library esp-idf\esp-tls\libesp-tls.a
+[597/1060] Linking C static library esp-idf\http_parser\libhttp_parser.a
+[598/1060] Linking C static library esp-idf\esp_wifi\libesp_wifi.a
+[599/1060] Linking C static library esp-idf\wpa_supplicant\libwpa_supplicant.a
+[600/1060] Linking C static library esp-idf\esp_netif\libesp_netif.a
+[601/1060] Linking C static library esp-idf\lwip\liblwip.a
+[602/1060] Linking C static library esp-idf\vfs\libvfs.a
+[603/1060] Linking C static library esp-idf\esp_phy\libesp_phy.a
+[604/1060] Linking C static library esp-idf\nvs_flash\libnvs_flash.a
+[605/1060] Linking C static library esp-idf\esp_event\libesp_event.a
+[606/1060] Linking C static library esp-idf\esp_timer\libesp_timer.a
+[607/1060] Linking C static library esp-idf\esp_common\libesp_common.a
+[608/1060] Linking C static library esp-idf\cxx\libcxx.a
+[609/1060] Linking C static library esp-idf\newlib\libnewlib.a
+[610/1060] Linking C static library esp-idf\freertos\libfreertos.a
+[611/1060] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[612/1060] Linking C static library esp-idf\soc\libsoc.a
+[613/1060] Linking C static library esp-idf\heap\libheap.a
+[614/1060] Linking C static library esp-idf\log\liblog.a
+[615/1060] Linking C static library esp-idf\hal\libhal.a
+[616/1060] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[617/1060] Linking C static library esp-idf\esp_system\libesp_system.a
+[618/1060] Linking C static library esp-idf\pthread\libpthread.a
+[619/1060] Linking C static library esp-idf\spi_flash\libspi_flash.a
+[620/1060] Linking C static library esp-idf\app_update\libapp_update.a
+[621/1060] Linking C static library esp-idf\esp_partition\libesp_partition.a
+[622/1060] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[623/1060] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[624/1060] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedtls.a
+[625/1060] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedx509.a
+[626/1060] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedcrypto.a
+[627/1060] Generating x509_crt_bundle
+[628/1060] Generating ../../x509_crt_bundle.S
+[629/1060] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[630/1060] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr.c.obj
+[631/1060] Building ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj
+[632/1060] Building C object esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
+[633/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[634/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[635/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[636/1060] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[637/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[638/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[639/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc.c.obj
+[640/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[641/1060] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[642/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_crc.c.obj
+[643/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c.c.obj
+[644/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer.c.obj
+[645/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj
+[646/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cmpr.c.obj
+[647/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj
+[648/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_com.c.obj
+[649/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart.c.obj
+[650/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
+[651/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
+[652/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_transaction.c.obj
+[653/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdspi_host.c.obj
+[654/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_slave.c.obj
+[655/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj
+[656/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_common.c.obj
+[657/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_bus_lock.c.obj
+[658/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj
+[659/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi_master.c.obj
+[660/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj
+[661/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_oper.c.obj
+[662/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_timer.c.obj
+[663/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj
+[664/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+[665/1060] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj
+[666/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj
+[667/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj
+[668/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+[669/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdm.c.obj
+[670/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj
+[671/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj
+[672/1060] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj
+[673/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
+[674/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj
+[675/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+[676/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_transaction.c.obj
+[677/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pulse_cnt.c.obj
+[678/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj
+[679/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
+[680/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj
+[681/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_host.c.obj
+[682/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai.c.obj
+[683/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac_common.c.obj
+[684/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj
+[685/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdio_slave.c.obj
+[686/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor_common.c.obj
+[687/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_i2s_deprecated.c.obj
+[688/1060] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+[689/1060] Building ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj
+[690/1060] Building C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj
+[691/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/esp32/dac.c.obj
+[692/1060] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+[693/1060] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+[694/1060] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/esp32/touch_sensor.c.obj
+[695/1060] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.obj
+[696/1060] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+[697/1060] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[698/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+[699/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+[700/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[701/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+[702/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+[703/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
+[704/1060] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+[705/1060] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[706/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj
+[707/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj
+[708/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj
+[709/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj
+[710/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj
+[711/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj
+[712/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj
+[713/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj
+[714/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj
+[715/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj
+[716/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj
+[717/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj
+[718/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj
+[719/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj
+[720/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj
+[721/1060] Linking C static library esp-idf\mbedtls\libmbedtls.a
+[722/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj
+[723/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj
+[724/1060] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj
+[725/1060] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[726/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[727/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+[728/1060] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[729/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj
+[730/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[731/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+[732/1060] Linking C static library esp-idf\esp_pm\libesp_pm.a
+[733/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[734/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[735/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[736/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[737/1060] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[738/1060] Building C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj
+[739/1060] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[740/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[741/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[742/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[743/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[744/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[745/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[746/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[747/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[748/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[749/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[750/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[751/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[752/1060] Linking C static library esp-idf\driver\libdriver.a
+[753/1060] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[754/1060] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[755/1060] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[756/1060] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[757/1060] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[758/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj
+[759/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[760/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[761/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[762/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[763/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[764/1060] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[765/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+[766/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+[767/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+[768/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+[769/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+[770/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+[771/1060] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+[772/1060] Linking C static library esp-idf\efuse\libefuse.a
+[773/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
+[774/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
+[775/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
+[776/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
+[777/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
+[778/1060] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+[779/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+[780/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_sys.c.obj
+[781/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+[782/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+[783/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+[784/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[785/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+[786/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_mem.c.obj
+[787/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+[788/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[789/1060] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+[790/1060] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj
+[791/1060] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[792/1060] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[793/1060] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[794/1060] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[795/1060] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj
+[796/1060] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[797/1060] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[798/1060] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[799/1060] Linking C static library esp-idf\esp_ringbuf\libesp_ringbuf.a
+[800/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[801/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[802/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[803/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[804/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[805/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[806/1060] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[807/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[808/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[809/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[810/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[811/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+[812/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+[813/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[814/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[815/1060] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[816/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_queue.c.obj
+[817/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_priority_spec.c.obj
+[818/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_url.c.obj
+[819/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_rcbuf.c.obj
+[820/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_thread.c.obj
+C:/Users/Talha/espADF/esp-adf/components/audio_sal/audio_thread.c: In function 'audio_thread_create':
+C:/Users/Talha/espADF/esp-adf/components/audio_sal/audio_thread.c:78:64: warning: passing argument 2 of 'xTaskCreateRestrictedPinnedToCore' from incompatible pointer type [-Wincompatible-pointer-types]
+   78 |         if (xTaskCreateRestrictedPinnedToCore(&xRegParameters, (TASK_HANDLE_T)p_handle, core_id) != pdPASS) {
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                |
+      |                                                                struct tskTaskControlBlock *
+C:/Users/Talha/espADF/esp-adf/components/audio_sal/audio_thread.c:43:130: note: expected 'struct tskTaskControlBlock **' but argument is of type 'struct tskTaskControlBlock *'
+   43 | BaseType_t __attribute__((weak)) xTaskCreateRestrictedPinnedToCore(const TaskParameters_t *const pxTaskDefinition, TaskHandle_t *pxCreatedTask, const BaseType_t xCoreID)
+      |                                                                                                                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/Talha/espADF/esp-adf/components/audio_sal/audio_thread.c:86:72: warning: passing argument 6 of 'xTaskCreatePinnedToCore' from incompatible pointer type [-Wincompatible-pointer-types]
+   86 |         if (xTaskCreatePinnedToCore(main_func, name, stack, arg, prio, (xTaskHandle)p_handle, core_id) != pdPASS) {
+      |                                                                        ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                        |
+      |                                                                        struct tskTaskControlBlock *
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h:48,
+                 from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:41,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_sal/audio_thread.c:26:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:350:62: note: expected 'struct tskTaskControlBlock ** const' but argument is of type 'struct tskTaskControlBlock *'
+  350 |                                         TaskHandle_t * const pvCreatedTask,
+      |                                         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[821/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/audio_mutex.c.obj
+[822/1060] Linking C static library esp-idf\xtensa\libxtensa.a
+[823/1060] Building C object esp-idf/audio_sal/CMakeFiles/__idf_audio_sal.dir/media_os_ctype.c.obj
+[824/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_queue.c.obj
+[825/1060] Building C object esp-idf/adf_utils/CMakeFiles/__idf_adf_utils.dir/json_utils.c.obj
+[826/1060] Building C object esp-idf/adf_utils/CMakeFiles/__idf_adf_utils.dir/cloud_services/baidu_access_token.c.obj
+[827/1060] Building C object esp-idf/display_service/CMakeFiles/__idf_display_service.dir/display_service.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/display_service/display_service.c:34:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/display_service/display_service.c:34:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[828/1060] Building C object esp-idf/adf_utils/CMakeFiles/__idf_adf_utils.dir/cloud_services/aws_sig_v4_signing.c.obj
+[829/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_session.c.obj
+[830/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_stream.c.obj
+[831/1060] Linking C static library esp-idf\app_trace\libapp_trace.a
+[832/1060] Linking C static library esp-idf\esp_lcd\libesp_lcd.a
+[833/1060] Linking C static library esp-idf\console\libconsole.a
+[834/1060] Linking C static library esp-idf\wear_levelling\libwear_levelling.a
+[835/1060] Linking C static library esp-idf\protobuf-c\libprotobuf-c.a
+[836/1060] Linking C static library esp-idf\esp_hid\libesp_hid.a
+[837/1060] Linking C static library esp-idf\unity\libunity.a
+[838/1060] Linking C static library esp-idf\espcoredump\libespcoredump.a
+[839/1060] Linking C static library esp-idf\sdmmc\libsdmmc.a
+[840/1060] Linking C static library esp-idf\mqtt\libmqtt.a
+[841/1060] Linking C static library esp-idf\json\libjson.a
+[842/1060] Linking C static library esp-idf\cmock\libcmock.a
+[843/1060] Linking C static library esp-idf\spiffs\libspiffs.a
+[844/1060] Linking C static library esp-idf\audio_sal\libaudio_sal.a
+[845/1060] Linking C static library esp-idf\perfmon\libperfmon.a
+[846/1060] Building C object esp-idf/display_service/CMakeFiles/__idf_display_service.dir/led_indicator/led_indicator.c.obj
+[847/1060] Building C object esp-idf/display_service/CMakeFiles/__idf_display_service.dir/led_bar/led_bar_aw2013.c.obj
+[848/1060] Linking C static library esp-idf\protocomm\libprotocomm.a
+[849/1060] Building C object esp-idf/display_service/CMakeFiles/__idf_display_service.dir/led_bar/led_bar_ws2812.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/display_service/led_bar/led_bar_ws2812.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/display_service/led_bar/led_bar_ws2812.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[850/1060] Building C object esp-idf/display_service/CMakeFiles/__idf_display_service.dir/led_bar/led_bar_is31x.c.obj
+[851/1060] Building C object esp-idf/esp_dispatcher/CMakeFiles/__idf_esp_dispatcher.dir/esp_dispatcher.c.obj
+[852/1060] Building C object esp-idf/esp_dispatcher/CMakeFiles/__idf_esp_dispatcher.dir/audio_service.c.obj
+[853/1060] Building C object esp-idf/esp_dispatcher/CMakeFiles/__idf_esp_dispatcher.dir/esp_delegate.c.obj
+[854/1060] Building C object esp-idf/esp_dispatcher/CMakeFiles/__idf_esp_dispatcher.dir/periph_service.c.obj
+[855/1060] Linking C static library esp-idf\fatfs\libfatfs.a
+[856/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/audio_volume.c.obj
+[857/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es8388/es8388.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8388/es8388.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8388/es8388.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[858/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es8374/es8374.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8374/es8374.c:30:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8374/es8374.c:30:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[859/1060] Linking C static library esp-idf\adf_utils\libadf_utils.a
+[860/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es7243/es7243.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7243/es7243.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7243/es7243.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[861/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/audio_hal.c.obj
+[862/1060] Linking C static library esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+[863/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es8388/headphone_detect.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8388/headphone_detect.c:35:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8388/headphone_detect.c:35:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[864/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es8156/es8156.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8156/es8156.c:30:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8156/es8156.c:30:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[865/1060] Performing configure step for 'bootloader'
+-- Found Git: C:/Users/Talha/.espressif/tools/idf-git/2.30.1/cmd/git.exe (found version "2.30.1.windows.1") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/Talha/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Talha/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/Talha/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.0.1-dirty
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader_support C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/efuse C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_app_format C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_common C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_hw_support C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_system C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esptool_py C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/hal C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/log C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader/subproject/main C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/bootloader/subproject/components/micro-ecc C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/newlib C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/partition_table C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/soc C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/spi_flash C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader
+[866/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es8311/es8311.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8311/es8311.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es8311/es8311.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[867/1060] Linking C static library esp-idf\wifi_provisioning\libwifi_provisioning.a
+[868/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_submit.c.obj
+[869/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/tas5805m/tas5805m.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/tas5805m/tas5805m.c:26:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/tas5805m/tas5805m.c:26:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[870/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es7148/es7148.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7148/es7148.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7148/es7148.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[871/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es7210/es7210.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7210/es7210.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7210/es7210.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[872/1060] Linking C static library esp-idf\esp_dispatcher\libesp_dispatcher.a
+[873/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/zl38063.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/zl38063/zl38063.c:32:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/zl38063/zl38063.c:32:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[874/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/example_apps/tw_ldfw.c.obj
+[875/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/example_apps/tw_ldfwcfg.c.obj
+[876/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/es7243e/es7243e.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7243e/es7243e.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/es7243e/es7243e.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[877/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/api_lib/vprocTwolf_access.c.obj
+[878/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/example_apps/tw_ldcfg.c.obj
+[879/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/example_apps/tw_hal_verify.c.obj
+[880/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/api_lib/vproc_common.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/zl38063/api_lib/vproc_common.c:19:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_hal/driver/zl38063/api_lib/vproc_common.c:19:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[881/1060] Building C object esp-idf/esp-sr/CMakeFiles/__idf_esp-sr.dir/src/esp_mn_speech_commands.c.obj
+[882/1060] Building C object esp-idf/esp-sr/CMakeFiles/__idf_esp-sr.dir/src/esp_process_sdkconfig.c.obj
+[883/1060] Building C object esp-idf/audio_hal/CMakeFiles/__idf_audio_hal.dir/driver/zl38063/example_apps/tw_spi_access.c.obj
+[884/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_debug.c.obj
+[885/1060] Building C object esp-idf/esp-sr/CMakeFiles/__idf_esp-sr.dir/src/model_path.c.obj
+[886/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_extpri.c.obj
+[887/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_buf.c.obj
+[888/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_callbacks.c.obj
+[889/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_hd_huffman.c.obj
+[890/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_frame.c.obj
+[891/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_http.c.obj
+[892/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_helper.c.obj
+[893/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_hd.c.obj
+[894/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_hd_huffman_data.c.obj
+[895/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_option.c.obj
+[896/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_mem.c.obj
+[897/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_npn.c.obj
+[898/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_pq.c.obj
+[899/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_version.c.obj
+[900/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_map.c.obj
+[901/1060] Building C object esp-idf/espressif__nghttp/CMakeFiles/__idf_espressif__nghttp.dir/nghttp2/lib/nghttp2_outbound_item.c.obj
+[902/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/audio_forge.c.obj
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c: In function 'audio_forge_downmix_set_gain':
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c:847:15: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+  847 |     if ((int)(abs((gain[0] - audio_forge->downmix.source_info[index].gain[0]) * 100)) <= 5 //100 and 5 is to determine if two double numbers are equal.
+      |               ^~~
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c:848:18: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+  848 |         && (int)(abs((gain[1] - audio_forge->downmix.source_info[index].gain[0]) * 100)) <= 5) {
+      |                  ^~~
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c: In function 'audio_forge_sonic_set_speed':
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c:986:15: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+  986 |     if ((int)(abs((sonic_speed - audio_forge->sonic_speed) * 100)) <= 5) {
+      |               ^~~
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c: In function 'audio_forge_sonic_set_pitch':
+C:/Users/Talha/espADF/esp-adf/components/esp-adf-libs/esp_codec/audio_forge.c:1011:15: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+ 1011 |     if ((int)(abs((sonic_pitch - audio_forge->sonic_pitch) * 100)) <= 5) {
+      |               ^~~
+[903/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/equalizer.c.obj
+[904/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/audio_sonic.c.obj
+[905/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/audio_alc.c.obj
+[906/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/wav_encoder.c.obj
+[907/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_common.c.obj
+[908/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_os.c.obj
+[909/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_adapter.c.obj
+[910/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_crypt.c.obj
+[911/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_os_freertos.c.obj
+[912/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/downmix.c.obj
+[913/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/esp_codec/filter_resample.c.obj
+[914/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_crypt_default.c.obj
+[915/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_tls_default.c.obj
+[916/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_socket_default.c.obj
+[917/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_socket.c.obj
+[918/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_tls.c.obj
+[919/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_netif_default.c.obj
+[920/1060] Linking C static library esp-idf\esp-sr\libesp-sr.a
+[921/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/media_lib_netif.c.obj
+[922/1060] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/audio_misc/rec_eng_helper.c.obj
+[923/1060] Building C object esp-idf/audio_pipeline/CMakeFiles/__idf_audio_pipeline.dir/audio_pipeline.c.obj
+[924/1060] Building C object esp-idf/audio_pipeline/CMakeFiles/__idf_audio_pipeline.dir/audio_element.c.obj
+[925/1060] Building C object esp-idf/audio_pipeline/CMakeFiles/__idf_audio_pipeline.dir/audio_event_iface.c.obj
+[926/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_adc_button.c.obj
+In file included from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/include/periph_adc_button.h:28,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/periph_adc_button.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+[927/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_button.c.obj
+[928/1060] Building C object esp-idf/audio_pipeline/CMakeFiles/__idf_audio_pipeline.dir/ringbuf.c.obj
+[929/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_led.c.obj
+[930/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/esp_peripherals.c.obj
+[931/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_is31fl3216.c.obj
+[932/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_gpio_isr.c.obj
+[933/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_wifi.c.obj
+[934/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_aw2013.c.obj
+[935/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_console.c.obj
+[936/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_lcd.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/periph_lcd.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/periph_lcd.c:27:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[937/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_spiffs.c.obj
+[938/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_ws2812.c.obj
+In file included from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/periph_ws2812.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/rmt.h:18:2: warning: #warning "The legacy RMT driver is deprecated, please use driver/rmt_tx.h and/or driver/rmt_rx.h" [-Wcpp]
+   18 | #warning "The legacy RMT driver is deprecated, please use driver/rmt_tx.h and/or driver/rmt_rx.h"
+      |  ^~~~~~~
+[939/1060] Linking C static library esp-idf\espressif__nghttp\libespressif__nghttp.a
+[940/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/blufi/blufi_security.c.obj
+[941/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/blufi/wifibleconfig.c.obj
+[942/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/tca9554/tca9554.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/tca9554/tca9554.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/tca9554/tca9554.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[943/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/button/button.c.obj
+[944/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/adc_button/adc_button.c.obj
+In file included from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/adc_button/adc_button.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/adc_button/adc_button.c:32:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+[945/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/sdcard/sdcard.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/sdcard/sdcard.c:39:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/esp_peripherals/lib/sdcard/sdcard.c:39:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[946/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/driver/i2c_bus/i2c_bus.c.obj
+[947/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/IS31FL3216/IS31FL3216.c.obj
+[948/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_sdcard.c.obj
+[949/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es7210/es7210.c.obj
+[950/1060] Building C object esp-idf/audio_recorder/CMakeFiles/__idf_audio_recorder.dir/recorder_encoder.c.obj
+[951/1060] Building C object esp-idf/audio_recorder/CMakeFiles/__idf_audio_recorder.dir/audio_recorder.c.obj
+[952/1060] Building C object esp-idf/audio_recorder/CMakeFiles/__idf_audio_recorder.dir/recorder_sr.c.obj
+[953/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es7243e/es7243e.c.obj
+[954/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/gpio_isr/gpio_isr.c.obj
+[955/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/lib/touch/touch.c.obj
+[956/1060] Building C object esp-idf/esp_peripherals/CMakeFiles/__idf_esp_peripherals.dir/periph_touch.c.obj
+[957/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es8311/es8311.c.obj
+[958/1060] Building C object esp-idf/battery_service/CMakeFiles/__idf_battery_service.dir/monitors/voltage_monitor.c.obj
+[959/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/platform/esp_codec_dev_os.c.obj
+[960/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es8156/es8156.c.obj
+[961/1060] Building C object esp-idf/battery_service/CMakeFiles/__idf_battery_service.dir/battery_service.c.obj
+[962/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/esp_codec_dev_if.c.obj
+[963/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/audio_codec_sw_vol.c.obj
+[964/1060] Building C object esp-idf/coredump_upload_service/CMakeFiles/__idf_coredump_upload_service.dir/coredump_upload_service.c.obj
+C:/Users/Talha/espADF/esp-adf/components/coredump_upload_service/coredump_upload_service.c: In function 'coredump_read':
+C:/Users/Talha/espADF/esp-adf/components/coredump_upload_service/coredump_upload_service.c:84:24: warning: passing argument 2 of 'esp_rom_spiflash_read' from incompatible pointer type [-Wincompatible-pointer-types]
+   84 |     if (SPI_READ(addr, *des, *len) != ESP_OK) {
+      |                        ^~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from C:/Users/Talha/espADF/esp-adf/components/coredump_upload_service/coredump_upload_service.c:44:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/include/esp_rom_spiflash.h:251:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  251 | esp_rom_spiflash_result_t esp_rom_spiflash_read(uint32_t src_addr, uint32_t *dest, int32_t len);
+      |                                                                    ~~~~~~~~~~^~~~
+[965/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/esp_codec_dev_vol.c.obj
+[966/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/esp_codec_dev.c.obj
+[967/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/platform/audio_codec_gpio.c.obj
+[968/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/platform/audio_codec_ctrl_i2c.c.obj
+[969/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es8374/es8374.c.obj
+[970/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es8388/es8388.c.obj
+[971/1060] Linking C static library esp-idf\audio_pipeline\libaudio_pipeline.a
+[972/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/platform/audio_codec_ctrl_spi.c.obj
+[973/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/tas5805m/tas5805m.c.obj
+[974/1060] Building C object esp-idf/esp_event_cast/CMakeFiles/__idf_esp_event_cast.dir/esp_event_cast.c.obj
+[975/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/platform/audio_codec_data_i2s.c.obj
+[976/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/playlist_operator/flash_list.c.obj
+[977/1060] Building C object esp-idf/input_key_service/CMakeFiles/__idf_input_key_service.dir/input_key_service.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/input_key_service/include/input_key_service.h:32,
+                 from C:/Users/Talha/espADF/esp-adf/components/input_key_service/input_key_service.c:32:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/input_key_service/include/input_key_service.h:32,
+                 from C:/Users/Talha/espADF/esp-adf/components/input_key_service/input_key_service.c:32:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[978/1060] Building C object esp-idf/esp_codec_dev/CMakeFiles/__idf_esp_codec_dev.dir/device/es7243/es7243.c.obj
+[979/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/playlist_operator/sdcard_list.c.obj
+[980/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/playlist.c.obj
+[981/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/playlist_operator/dram_list.c.obj
+[982/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/sdcard_scan/sdcard_scan.c.obj
+[983/1060] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/playlist_operator/partition_list.c.obj
+[984/1060] Building C object esp-idf/my_board/CMakeFiles/__idf_my_board.dir/my_codec_driver/new_codec.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_codec_driver/new_codec.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_codec_driver/new_codec.c:29:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[985/1060] Building C object esp-idf/my_board/CMakeFiles/__idf_my_board.dir/my_board_v1_0/board_pins_config.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board_pins_config.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board_pins_config.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[986/1060] Building C object esp-idf/my_board/CMakeFiles/__idf_my_board.dir/my_board_v1_0/board.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.c:26:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.c:26:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[987/1060] Linking C static library esp-idf\coredump_upload_service\libcoredump_upload_service.a
+[988/1060] Linking C static library esp-idf\esp-adf-libs\libesp-adf-libs.a
+[989/1060] Linking C static library esp-idf\esp_codec_dev\libesp_codec_dev.a
+[990/1060] Linking C static library esp-idf\esp_event_cast\libesp_event_cast.a
+[991/1060] Linking C static library esp-idf\playlist\libplaylist.a
+[992/1060] Linking C static library esp-idf\my_board\libmy_board.a
+[993/1060] Linking C static library esp-idf\audio_recorder\libaudio_recorder.a
+[994/1060] Linking C static library esp-idf\esp_peripherals\libesp_peripherals.a
+[995/1060] Linking C static library esp-idf\audio_hal\libaudio_hal.a
+[996/1060] Linking C static library esp-idf\display_service\libdisplay_service.a
+[997/1060] Generating ../../duer_profile.S
+[998/1060] Linking C static library esp-idf\battery_service\libbattery_service.a
+[999/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/smart_config/smart_config.c.obj
+[1000/1060] Linking C static library esp-idf\input_key_service\libinput_key_service.a
+[1001/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/blufi_config/blufi_security.c.obj
+[1002/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/src/wifi_ssid_manager.c.obj
+[1003/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/src/wifi_service.c.obj
+[1004/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/src/esp_wifi_setting.c.obj
+[1005/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/airkiss_config/airkiss_config.c.obj
+[1006/1060] Building C object esp-idf/wifi_service/CMakeFiles/__idf_wifi_service.dir/blufi_config/blufi_config.c.obj
+[1007/1060] Building C object esp-idf/dueros_service/CMakeFiles/__idf_dueros_service.dir/esp_audio_device_info.c.obj
+[1008/1060] Building C object esp-idf/dueros_service/CMakeFiles/__idf_dueros_service.dir/dueros_service.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/dueros_service/dueros_service.c:40:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_board/include/board_pins_config.h:29,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/my_board/my_board_v1_0/board.h:30,
+                 from C:/Users/Talha/espADF/esp-adf/components/dueros_service/dueros_service.c:40:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[1009/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/display_action.c.obj
+[1010/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/dueros_action.c.obj
+[1011/1060] Building ASM object esp-idf/dueros_service/CMakeFiles/__idf_dueros_service.dir/__/__/duer_profile.S.obj
+[1012/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/partition_action.c.obj
+[1013/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/wifi_action.c.obj
+[1014/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/player_action.c.obj
+[1015/1060] Building C object esp-idf/tone_partition/CMakeFiles/__idf_tone_partition.dir/tone_partition.c.obj
+[1016/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/nvs_action.c.obj
+[1017/1060] Building C object esp-idf/esp_actions/CMakeFiles/__idf_esp_actions.dir/recorder_action.c.obj
+[1018/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/spiffs_stream.c.obj
+[1019/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/fatfs_stream.c.obj
+[1020/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/raw_stream.c.obj
+[1021/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/http_playlist.c.obj
+[1022/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/http_stream.c.obj
+[1023/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/lib/hls/hls_parse.c.obj
+[1024/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/tone_stream.c.obj
+[1025/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/i2s_stream.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:53: warning: "SOC_I2S_SUPPORTS_ADC_DAC" redefined
+   53 | #define SOC_I2S_SUPPORTS_ADC_DAC 1
+      | 
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_hw_support/include/esp_cpu.h:13,
+                 from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_hw_support/include/spinlock.h:11,
+                 from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:74,
+                 from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:58,
+                 from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:70,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:28:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/soc/esp32/include/soc/soc_caps.h:198: note: this is the location of the previous definition
+  198 | #define SOC_I2S_SUPPORTS_ADC_DAC    (1)
+      | 
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c: In function 'i2s_stream_clear_dma_buffer':
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:141:5: warning: 'dma_buf_count' is deprecated [-Wdeprecated-declarations]
+  141 |     int index = i2s->config.i2s_config.dma_buf_count;
+      |     ^~~
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:20,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s_types_legacy.h:225:13: note: declared here
+  225 |         int dma_buf_count __attribute__((deprecated));  /*!< This is an alias to 'dma_desc_num' for backward compatibility */
+      |             ^~~~~~~~~~~~~
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:142:5: warning: 'dma_buf_len' is deprecated [-Wdeprecated-declarations]
+  142 |     uint8_t *buf = audio_calloc(1, i2s->config.i2s_config.dma_buf_len * 4);
+      |     ^~~~~~~
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:20,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s_types_legacy.h:229:13: note: declared here
+  229 |         int dma_buf_len __attribute__((deprecated));    /*!< This is an alias to 'dma_frame_num' for backward compatibility */
+      |             ^~~~~~~~~~~
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:146:9: warning: 'dma_buf_len' is deprecated [-Wdeprecated-declarations]
+  146 |         memset(buf, 0x80, i2s->config.i2s_config.dma_buf_len * 4);
+      |         ^~~~~~
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:20,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s_types_legacy.h:229:13: note: declared here
+  229 |         int dma_buf_len __attribute__((deprecated));    /*!< This is an alias to 'dma_frame_num' for backward compatibility */
+      |             ^~~~~~~~~~~
+C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:150:9: warning: 'dma_buf_len' is deprecated [-Wdeprecated-declarations]
+  150 |         audio_element_output(self, (char *)buf, i2s->config.i2s_config.dma_buf_len * 4);
+      |         ^~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:20,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/i2s_stream.c:33:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s_types_legacy.h:229:13: note: declared here
+  229 |         int dma_buf_len __attribute__((deprecated));    /*!< This is an alias to 'dma_frame_num' for backward compatibility */
+      |             ^~~~~~~~~~~
+[1026/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/embed_flash_stream.c.obj
+[1027/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/tcp_client_stream.c.obj
+[1028/1060] Linking C static library esp-idf\dueros_service\libdueros_service.a
+[1029/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/lib/hls/line_reader.c.obj
+[1030/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/pwm_stream.c.obj
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_stream/include/pwm_stream.h:29,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/pwm_stream.c:39:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/timer.h:16:2: warning: #warning "legacy timer group driver is deprecated, please migrate to driver/gptimer.h" [-Wcpp]
+   16 | #warning "legacy timer group driver is deprecated, please migrate to driver/gptimer.h"
+      |  ^~~~~~~
+[1031/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/lib/hls/hls_playlist.c.obj
+[1032/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/algorithm_stream.c.obj
+[1033/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/tts_stream.c.obj
+[1034/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/lib/hls/join_path.c.obj
+[1035/1060] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/bluetooth_service.c.obj
+[1036/1060] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/bt_keycontrol.c.obj
+[1037/1060] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/lib/gzip/gzip_miniz.c.obj
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_stream/lib/gzip/miniz_inflate.h:32,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/lib/gzip/gzip_miniz.c:30:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_rom/include/esp32/rom/miniz.h:7:2: warning: #warning "{target}/rom/miniz.h is deprecated, please use (#include "miniz.h") instead" [-Wcpp]
+    7 | #warning "{target}/rom/miniz.h is deprecated, please use (#include "miniz.h") instead"
+      |  ^~~~~~~
+[1038/1060] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/hfp_stream.c.obj
+[1039/1060] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/a2dp_stream.c.obj
+[1040/1060] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/ota_service.c.obj
+[1041/1060] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/esp_fs_ota.c.obj
+[1042/1060] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/ota_proc_default.c.obj
+[1043/1060] Linking C static library esp-idf\esp_actions\libesp_actions.a
+[1044/1060] Linking C static library esp-idf\wifi_service\libwifi_service.a
+[1045/1060] Linking C static library esp-idf\tone_partition\libtone_partition.a
+[1046/1060] Linking C static library esp-idf\audio_stream\libaudio_stream.a
+[1047/1060] Linking C static library esp-idf\bluetooth_service\libbluetooth_service.a
+[1048/1060] Linking C static library esp-idf\ota_service\libota_service.a
+[1049/1060] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.h:5,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/main/main.c:1:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.h:5,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/main/main.c:1:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[1050/1060] Building C object esp-idf/mp3_radio_stream/CMakeFiles/__idf_mp3_radio_stream.dir/mp3_radio_stream.c.obj
+In file included from C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:23,
+                 from C:/Users/Talha/espADF/esp-adf/components/audio_stream/include/i2s_stream.h:28,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.c:23:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Users/Talha/espADF/esp-adf/components/audio_stream/include/i2s_stream.h:28,
+                 from D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.c:23:
+C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.c: In function 'taskSwitchingTestTask':
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/components/mp3_radio_stream/mp3_radio_stream.c:305:41: warning: comparison of distinct pointer types lacks a cast
+  305 |         if (xTaskGetCurrentTaskHandle() == stream_task)
+      |                                         ^~
+[1051/1060] Linking C static library esp-idf\mp3_radio_stream\libmp3_radio_stream.a
+[1052/1060] Linking C static library esp-idf\main\libmain.a
+[1053/1060] Performing build step for 'bootloader'
+[1/101] Generating project_elf_src_esp32.c
+[2/101] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[3/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj
+[4/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+[5/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+[6/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[7/101] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[8/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+[9/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
+[10/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
+[11/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+[12/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+[13/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[14/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+[15/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+[16/101] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj
+[17/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+[18/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+[19/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+[20/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
+[21/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+[22/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+[23/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+[24/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+[25/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+[26/101] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+[27/101] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[28/101] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[29/101] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+[30/101] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[31/101] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[32/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[33/101] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+[34/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[35/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[36/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[37/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[38/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[39/101] Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
+[40/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[41/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[42/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[43/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[44/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj
+[45/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[46/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[47/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[48/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[49/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[50/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj
+[51/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[52/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[53/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[54/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[55/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj
+[56/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[57/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[58/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[59/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_sha.c.obj
+[60/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[61/101] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[62/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[63/101] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[64/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj
+[65/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[66/101] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj
+[67/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[68/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_pm.c.obj
+[69/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[70/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[71/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[72/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj
+[73/101] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[74/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj
+[75/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_regi2c.c.obj
+[76/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[77/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[78/101] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[79/101] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[80/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[81/101] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[82/101] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[83/101] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj
+[84/101] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[85/101] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[86/101] Linking C static library esp-idf\log\liblog.a
+[87/101] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[88/101] Linking C static library esp-idf\esp_common\libesp_common.a
+[89/101] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[90/101] Linking C static library esp-idf\esp_system\libesp_system.a
+[91/101] Linking C static library esp-idf\efuse\libefuse.a
+[92/101] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[93/101] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[94/101] Linking C static library esp-idf\hal\libhal.a
+[95/101] Linking C static library esp-idf\micro-ecc\libmicro-ecc.a
+[96/101] Linking C static library esp-idf\soc\libsoc.a
+[97/101] Linking C static library esp-idf\xtensa\libxtensa.a
+[98/101] Linking C static library esp-idf\main\libmain.a
+[99/101] Linking C executable bootloader.elf
+[100/101] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generated D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader/bootloader.bin
+[101/101] cmd.exe /C "cd /D D:\Talha\Freelancing\ESP-I2S_mp3_radio\mp3_radio_4.4\build\bootloader\esp-idf\esptool_py && C:\Users\Talha\.espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[1054/1060] No install step for 'bootloader'
+[1055/1060] Completed 'bootloader'
+[1056/1060] Generating ld/sections.ld
+[1057/1060] Building C object CMakeFiles/mp3_radio.elf.dir/project_elf_src_esp32.c.obj
+[1058/1060] Linking CXX executable mp3_radio.elf
+[1059/1060] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/mp3_radio.bin
+[1060/1060] cmd.exe /C "cd /D D:\Talha\Freelancing\ESP-I2S_mp3_radio\mp3_radio_4.4\build\esp-idf\esptool_py && C:\Users\Talha\.espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/partition_table/partition-table.bin D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/mp3_radio.bin"
+mp3_radio.bin binary size 0xec320 bytes. Smallest app partition is 0x300000 bytes. 0x213ce0 bytes (69%) free.

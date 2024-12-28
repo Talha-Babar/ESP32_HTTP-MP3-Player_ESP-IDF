@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/CMakeFiles/bootloader
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/CMakeFiles/bootloader.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/CMakeFiles/bootloader-complete.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Talha/Freelancing/ESP-I2S_mp3_radio/mp3_radio_4.4/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

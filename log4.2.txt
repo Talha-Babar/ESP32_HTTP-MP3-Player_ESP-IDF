@@ -1,0 +1,97 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6944
+load:0x40078000,len:15500
+load:0x40080400,len:3844
+0x40080400: _init at ??:?
+
+entry 0x4008064c
+I (27) boot: ESP-IDF v5.0.1-dirty 2nd stage bootloader
+I (27) boot: compile time 11:16:00
+I (28) boot: chip revision: v3.0
+I (31) boot.esp32: SPI Speed      : 40MHz
+I (36) boot.esp32: SPI Mode       : DIO
+I (40) boot.esp32: SPI Flash Size : 4MB
+I (45) boot: Enabling RNG early entropy source...
+I (50) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (61) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (68) boot:  1 phy_init         RF data          01 01 0000d000 00001000
+I (76) boot:  2 factory          factory app      00 00 00010000 00300000
+I (83) boot: End of partition table
+I (87) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2b44ch (177228) map
+I (160) esp_image: segment 1: paddr=0003b474 vaddr=3ffb0000 size=03414h ( 13332) load
+I (165) esp_image: segment 2: paddr=0003e890 vaddr=40080000 size=01788h (  6024) load
+I (168) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=a79c8h (686536) map
+I (422) esp_image: segment 4: paddr=000e79f0 vaddr=40081788 size=14878h ( 84088) load
+I (468) boot: Loaded app from partition at offset 0x10000
+I (468) boot: Disabling RNG early entropy source...
+I (480) cpu_start: Pro cpu up.
+I (480) cpu_start: Starting app cpu, entry point is 0x400813a8
+0x400813a8: call_start_cpu1 at C:/Users/Talha/esp/esp-idf-v5.0.1/esp-idf-v5.0.1/components/esp_system/port/cpu_start.c:142
+
+I (0) cpu_start: App cpu up.
+I (496) cpu_start: Pro cpu start user code
+I (496) cpu_start: cpu freq: 160000000 Hz
+I (496) cpu_start: Application information:
+I (501) cpu_start: Project name:     mp3_radio
+I (506) cpu_start: App version:      1
+I (510) cpu_start: Compile time:     May 24 2023 11:15:38
+I (517) cpu_start: ELF file SHA256:  ea6eb823acad90ec...
+I (523) cpu_start: ESP-IDF:          v5.0.1-dirty
+I (528) cpu_start: Min chip rev:     v0.0
+I (533) cpu_start: Max chip rev:     v3.99 
+I (537) cpu_start: Chip rev:         v3.0
+I (542) heap_init: Initializing. RAM available for dynamic allocation:
+I (550) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (555) heap_init: At 3FFB7798 len 00028868 (162 KiB): DRAM
+I (562) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (568) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (574) heap_init: At 40096000 len 0000A000 (40 KiB): IRAM
+I (582) spi_flash: detected chip: generic
+I (585) spi_flash: flash io: dio
+W (590) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`
+W (598) i2s(legacy): legacy i2s driver is deprecated, please migrate to use driver/i2s_std.h, driver/i2s_pdm.h or driver/i2s_tdm.h
+I (611) cpu_start: Starting scheduler on PRO CPU.
+I (0) cpu_start: Starting scheduler on APP CPU.
+I (677) HTTP_MP3_EXAMPLE: [2.0] Create audio pipeline for playback
+I (677) HTTP_MP3_EXAMPLE: [2.1] Create http stream to read data
+I (677) HTTP_MP3_EXAMPLE: [2.2] Create i2s stream to write data 
+I (687) HTTP_MP3_EXAMPLE: [2.3] Create mp3 decoder to decode mp3 file
+I (687) HTTP_MP3_EXAMPLE: [2.4] Register all elements to audio pipeline
+I (697) HTTP_MP3_EXAMPLE: [2.5] Link it together http_stream-->mp3_decoder-->i2s_stream-->[codec_chip]
+I (707) HTTP_MP3_EXAMPLE: [2.6] Set up  uri (http as http_stream, mp3 as mp3 decoder, and default output is i2s)
+I (717) HTTP_MP3_EXAMPLE: [ 3 ] Start and wait for Wi-Fi network
+I (727) HTTP_MP3_EXAMPLE: ESP_WIFI_MODE_STA
+I (867) HTTP_MP3_EXAMPLE: [3]wifi_init_sta finished.
+I (2407) HTTP_MP3_EXAMPLE: got ip:192.168.10.10
+I (2407) HTTP_MP3_EXAMPLE: [4]connected to ap SSID:PTCL-BB password:7d82edc6
+I (2407) HTTP_MP3_EXAMPLE: [ 4 ] Set up  event listener
+I (2417) HTTP_MP3_EXAMPLE: [4.1] Listening event from all elements of pipeline
+I (2417) HTTP_MP3_EXAMPLE: [4.2] Listening event from peripherals
+I (2427) HTTP_MP3_EXAMPLE: [ 5 ] Start audio_pipeline
+W (2437) AUDIO_THREAD: Make sure selected the `CONFIG_SPIRAM_BOOT_INIT` and `CONFIG_SPIRAM_ALLOW_STACK_EXTERNAL_MEMORY` by `make menuconfig`
+W (2447) AUDIO_THREAD: Make sure selected the `CONFIG_SPIRAM_BOOT_INIT` and `CONFIG_SPIRAM_ALLOW_STACK_EXTERNAL_MEMORY` by `make menuconfig`
+E (21217) esp-tls: [sock=54] delayed connect error: Software caused connection abort
+E (21217) transport_base: Failed to open a new connection: 32772
+E (21217) HTTP_CLIENT: Connection failed, sock < 0
+E (21227) HTTP_STREAM: Failed to open http stream
+E (21227) AUDIO_ELEMENT: [http] AEL_STATUS_ERROR_OPEN,28674
+W (21237) AUDIO_ELEMENT: [http] audio_element_on_cmd_error,7
+W (21247) AUDIO_ELEMENT: IN-[mp3] AEL_IO_ABORT
+E (21247) MP3_DECODER: failed to read audio data (line 122)
+W (21257) AUDIO_ELEMENT: [mp3] AEL_IO_ABORT, -3
+W (21267) AUDIO_ELEMENT: IN-[i2s] AEL_IO_ABORT
+W (21307) HTTP_MP3_EXAMPLE: [ * ] Stop event received
+I (21307) HTTP_MP3_EXAMPLE: [ 6 ] Stop audio_pipeline
+E (21307) AUDIO_ELEMENT: [http] Element already stopped
+E (21317) AUDIO_ELEMENT: [mp3] Element already stopped
+E (21327) AUDIO_ELEMENT: [i2s] Element already stopped
+W (21327) AUDIO_PIPELINE: There are no listener registered
+W (21337) AUDIO_ELEMENT: [http] Element has not create when AUDIO_ELEMENT_TERMINATE
+W (21347) AUDIO_ELEMENT: [i2s] Element has not create when AUDIO_ELEMENT_TERMINATE
+W (21357) AUDIO_ELEMENT: [mp3] Element has not create when AUDIO_ELEMENT_TERMINATE
